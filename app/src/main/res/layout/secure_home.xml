@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/linlaHeaderProgress2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pbHeaderProgress2"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ProgressBar>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Welcome User "
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etKey1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textWelcome"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Key 1" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etKey2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etKey1"
+        android:layout_alignBottom="@+id/etKey1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/etKey1"
+        android:ems="10"
+        android:hint="Key 2" />
+
+    <EditText
+        android:id="@+id/etKey3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKey1"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/etKey2"
+        android:ems="10"
+        android:hint="Key 3" />
+
+    <EditText
+        android:id="@+id/etKey4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etKey3"
+        android:layout_alignBottom="@+id/etKey3"
+        android:layout_alignLeft="@+id/etKey2"
+        android:ems="10"
+        android:hint="Key 4" />
+
+    <EditText
+        android:id="@+id/etKey5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKey3"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/etKey2"
+        android:ems="10"
+        android:hint="Key 5" />
+
+    <EditText
+        android:id="@+id/etKey6"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etKey5"
+        android:layout_alignBottom="@+id/etKey5"
+        android:layout_alignLeft="@+id/etKey4"
+        android:ems="10"
+        android:hint="Key 6" />
+
+    <EditText
+        android:id="@+id/etKey7"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etKey5"
+        android:layout_below="@+id/etKey5"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Key 7" />
+
+    <EditText
+        android:id="@+id/etKey8"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etKey7"
+        android:layout_alignBottom="@+id/etKey7"
+        android:layout_alignLeft="@+id/etKey6"
+        android:ems="10"
+        android:hint="Key 8" />
+
+    <EditText
+        android:id="@+id/etKey9"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKey7"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/etKey2"
+        android:ems="10"
+        android:hint="Key 9" />
+
+    <EditText
+        android:id="@+id/etKey10"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etKey9"
+        android:layout_alignBottom="@+id/etKey9"
+        android:layout_alignLeft="@+id/etKey8"
+        android:ems="10"
+        android:hint="Key 10" />
+
+    <Button
+        android:id="@+id/btCredential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKey9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Update Credententials" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_below="@+id/etname"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Email Id "
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etphn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etemail"
+        android:layout_below="@+id/etemail"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Number "
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tvhead1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="REGISTER HERE "
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etphn"
+        android:layout_below="@+id/etphn"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="User Id "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/etuname"
+        android:layout_below="@+id/etuname"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Password "
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhead1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="Name "
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etcps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etuname"
+        android:layout_below="@+id/etpass"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Confirm Password "
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/etcps"
+        android:layout_below="@+id/etcps"
+        android:layout_marginTop="21dp"
+        android:text="Register"
+        android:onClick="regist" />
+
+</RelativeLayout>
