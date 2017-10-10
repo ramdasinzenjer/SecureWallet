@@ -9,11 +9,11 @@ public interface Constants {
 
     //Urls
  
-    String REGISTER_URL="http://192.168.1.10/door_lock/mRegister.php?";
-    String LOGIN_URL="http://192.168.1.10/door_lock/mLogin.php?";
-    String KEYUPDATE_URL="http://192.168.1.10/door_lock/mKeyupdate.php?";
-    String KEYGETTER_URL="http://192.168.1.10/door_lock/mKeygetter.php?";
-    String OTPGETTER_URL="http://192.168.1.10/door_lock/mOtpreciever.php?";
+    String REGISTER_URL="https://securewallet.000webhostapp.com/mRegister.php?";
+    String LOGIN_URL="https://securewallet.000webhostapp.com/mLogin.php?";
+    String KEYUPDATE_URL="https://securewallet.000webhostapp.com/mKeyupdate.php?";
+    String KEYGETTER_URL="https://securewallet.000webhostapp.com/mKeygetter.php?";
+    String OTPGETTER_URL="https://securewallet.000webhostapp.com/mOtpreciever.php?";
     
     //Details
 
